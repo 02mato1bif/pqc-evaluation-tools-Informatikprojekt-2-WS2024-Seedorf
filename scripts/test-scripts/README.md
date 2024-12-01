@@ -9,7 +9,3 @@ while being in root folder
 ```
 run ./scripts/test-scripts/full-pqc-tls-test.sh
 ```
-
-```
-run ./scripts/test-scripts/full-pqc-tls-test.sh
-```
