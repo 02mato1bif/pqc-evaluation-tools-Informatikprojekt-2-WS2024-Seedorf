@@ -508,6 +508,5 @@ function main() {
     # Cleaning the environment
     clean_environment
     
-    python3 $root_dir/scripts/parsing-scripts/parse_results.py
 }
 main
