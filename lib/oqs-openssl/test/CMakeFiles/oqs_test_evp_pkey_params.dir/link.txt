@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/oqs_test_evp_pkey_params.dir/oqs_test_evp_pkey_params.c.o CMakeFiles/oqs_test_evp_pkey_params.dir/test_common.c.o -o oqs_test_evp_pkey_params  -Wl,-rpath,/home/tomi6545/pqc-evaluation-tools/lib/openssl_3.2/lib64 /home/tomi6545/pqc-evaluation-tools/lib/openssl_3.2/lib64/libcrypto.so 
