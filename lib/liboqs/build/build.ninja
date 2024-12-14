@@ -18710,7 +18710,7 @@ build src/sig/cross/install/strip: phony src/sig/cross/CMakeFiles/install/strip.
 build cmake_object_order_depends_target_test_aes: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/test_aes.dir/test_aes.c.o: C_COMPILER__test_aes_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_aes.c || cmake_object_order_depends_target_test_aes
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/test_aes.dir/test_aes.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -18747,7 +18747,7 @@ build tests/test_aes: C_EXECUTABLE_LINKER__test_aes_ tests/CMakeFiles/test_aes.d
 build cmake_object_order_depends_target_test_hash: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/test_hash.dir/test_hash.c.o: C_COMPILER__test_hash_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_hash.c || cmake_object_order_depends_target_test_hash
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/test_hash.dir/test_hash.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -18784,7 +18784,7 @@ build tests/test_hash: C_EXECUTABLE_LINKER__test_hash_ tests/CMakeFiles/test_has
 build cmake_object_order_depends_target_test_sha3: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/test_sha3.dir/test_sha3.c.o: C_COMPILER__test_sha3_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_sha3.c || cmake_object_order_depends_target_test_sha3
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/test_sha3.dir/test_sha3.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -18821,7 +18821,7 @@ build tests/test_sha3: C_EXECUTABLE_LINKER__test_sha3_ tests/CMakeFiles/test_sha
 build cmake_object_order_depends_target_speed_common: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/speed_common.dir/speed_common.c.o: C_COMPILER__speed_common_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/speed_common.c || cmake_object_order_depends_target_speed_common
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/speed_common.dir/speed_common.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -18858,7 +18858,7 @@ build tests/speed_common: C_EXECUTABLE_LINKER__speed_common_ tests/CMakeFiles/sp
 build cmake_object_order_depends_target_example_kem: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/example_kem.dir/example_kem.c.o: C_COMPILER__example_kem_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/example_kem.c || cmake_object_order_depends_target_example_kem
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/example_kem.dir/example_kem.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -18895,7 +18895,7 @@ build tests/example_kem: C_EXECUTABLE_LINKER__example_kem_ tests/CMakeFiles/exam
 build cmake_object_order_depends_target_kat_kem: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/kat_kem.dir/kat_kem.c.o: C_COMPILER__kat_kem_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/kat_kem.c || cmake_object_order_depends_target_kat_kem
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/kat_kem.dir/kat_kem.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -18905,7 +18905,7 @@ build tests/CMakeFiles/kat_kem.dir/kat_kem.c.o: C_COMPILER__kat_kem_unscanned_ /
   TARGET_PDB = tests/kat_kem.pdb
 
 build tests/CMakeFiles/kat_kem.dir/test_helpers.c.o: C_COMPILER__kat_kem_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_helpers.c || cmake_object_order_depends_target_kat_kem
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/kat_kem.dir/test_helpers.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -18942,7 +18942,7 @@ build tests/kat_kem: C_EXECUTABLE_LINKER__kat_kem_ tests/CMakeFiles/kat_kem.dir/
 build cmake_object_order_depends_target_test_kem: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/test_kem.dir/test_kem.c.o: C_COMPILER__test_kem_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_kem.c || cmake_object_order_depends_target_test_kem
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/test_kem.dir/test_kem.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -18979,7 +18979,7 @@ build tests/test_kem: C_EXECUTABLE_LINKER__test_kem_ tests/CMakeFiles/test_kem.d
 build cmake_object_order_depends_target_test_kem_mem: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/test_kem_mem.dir/test_kem_mem.c.o: C_COMPILER__test_kem_mem_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_kem_mem.c || cmake_object_order_depends_target_test_kem_mem
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/test_kem_mem.dir/test_kem_mem.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19016,7 +19016,7 @@ build tests/test_kem_mem: C_EXECUTABLE_LINKER__test_kem_mem_ tests/CMakeFiles/te
 build cmake_object_order_depends_target_speed_kem: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/speed_kem.dir/speed_kem.c.o: C_COMPILER__speed_kem_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/speed_kem.c || cmake_object_order_depends_target_speed_kem
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/speed_kem.dir/speed_kem.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19053,7 +19053,7 @@ build tests/speed_kem: C_EXECUTABLE_LINKER__speed_kem_ tests/CMakeFiles/speed_ke
 build cmake_object_order_depends_target_example_sig: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/example_sig.dir/example_sig.c.o: C_COMPILER__example_sig_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/example_sig.c || cmake_object_order_depends_target_example_sig
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/example_sig.dir/example_sig.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19090,7 +19090,7 @@ build tests/example_sig: C_EXECUTABLE_LINKER__example_sig_ tests/CMakeFiles/exam
 build cmake_object_order_depends_target_example_sig_stfl: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/example_sig_stfl.dir/example_sig_stfl.c.o: C_COMPILER__example_sig_stfl_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/example_sig_stfl.c || cmake_object_order_depends_target_example_sig_stfl
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/example_sig_stfl.dir/example_sig_stfl.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19127,7 +19127,7 @@ build tests/example_sig_stfl: C_EXECUTABLE_LINKER__example_sig_stfl_ tests/CMake
 build cmake_object_order_depends_target_kat_sig: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/kat_sig.dir/kat_sig.c.o: C_COMPILER__kat_sig_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/kat_sig.c || cmake_object_order_depends_target_kat_sig
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/kat_sig.dir/kat_sig.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19137,7 +19137,7 @@ build tests/CMakeFiles/kat_sig.dir/kat_sig.c.o: C_COMPILER__kat_sig_unscanned_ /
   TARGET_PDB = tests/kat_sig.pdb
 
 build tests/CMakeFiles/kat_sig.dir/test_helpers.c.o: C_COMPILER__kat_sig_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_helpers.c || cmake_object_order_depends_target_kat_sig
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/kat_sig.dir/test_helpers.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19174,7 +19174,7 @@ build tests/kat_sig: C_EXECUTABLE_LINKER__kat_sig_ tests/CMakeFiles/kat_sig.dir/
 build cmake_object_order_depends_target_kat_sig_stfl: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/kat_sig_stfl.dir/kat_sig_stfl.c.o: C_COMPILER__kat_sig_stfl_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/kat_sig_stfl.c || cmake_object_order_depends_target_kat_sig_stfl
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/kat_sig_stfl.dir/kat_sig_stfl.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19184,7 +19184,7 @@ build tests/CMakeFiles/kat_sig_stfl.dir/kat_sig_stfl.c.o: C_COMPILER__kat_sig_st
   TARGET_PDB = tests/kat_sig_stfl.pdb
 
 build tests/CMakeFiles/kat_sig_stfl.dir/test_helpers.c.o: C_COMPILER__kat_sig_stfl_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_helpers.c || cmake_object_order_depends_target_kat_sig_stfl
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/kat_sig_stfl.dir/test_helpers.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19221,7 +19221,7 @@ build tests/kat_sig_stfl: C_EXECUTABLE_LINKER__kat_sig_stfl_ tests/CMakeFiles/ka
 build cmake_object_order_depends_target_test_sig: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/test_sig.dir/test_sig.c.o: C_COMPILER__test_sig_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_sig.c || cmake_object_order_depends_target_test_sig
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/test_sig.dir/test_sig.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19258,7 +19258,7 @@ build tests/test_sig: C_EXECUTABLE_LINKER__test_sig_ tests/CMakeFiles/test_sig.d
 build cmake_object_order_depends_target_test_sig_mem: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/test_sig_mem.dir/test_sig_mem.c.o: C_COMPILER__test_sig_mem_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_sig_mem.c || cmake_object_order_depends_target_test_sig_mem
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/test_sig_mem.dir/test_sig_mem.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19295,7 +19295,7 @@ build tests/test_sig_mem: C_EXECUTABLE_LINKER__test_sig_mem_ tests/CMakeFiles/te
 build cmake_object_order_depends_target_speed_sig: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/speed_sig.dir/speed_sig.c.o: C_COMPILER__speed_sig_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/speed_sig.c || cmake_object_order_depends_target_speed_sig
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/speed_sig.dir/speed_sig.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19332,7 +19332,7 @@ build tests/speed_sig: C_EXECUTABLE_LINKER__speed_sig_ tests/CMakeFiles/speed_si
 build cmake_object_order_depends_target_test_sig_stfl: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/test_sig_stfl.dir/test_sig_stfl.c.o: C_COMPILER__test_sig_stfl_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/test_sig_stfl.c || cmake_object_order_depends_target_test_sig_stfl
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/test_sig_stfl.dir/test_sig_stfl.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19369,7 +19369,7 @@ build tests/test_sig_stfl: C_EXECUTABLE_LINKER__test_sig_stfl_ tests/CMakeFiles/
 build cmake_object_order_depends_target_speed_sig_stfl: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/speed_sig_stfl.dir/speed_sig_stfl.c.o: C_COMPILER__speed_sig_stfl_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/speed_sig_stfl.c || cmake_object_order_depends_target_speed_sig_stfl
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/speed_sig_stfl.dir/speed_sig_stfl.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19406,7 +19406,7 @@ build tests/speed_sig_stfl: C_EXECUTABLE_LINKER__speed_sig_stfl_ tests/CMakeFile
 build cmake_object_order_depends_target_dump_alg_info: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/dump_alg_info.dir/dump_alg_info.c.o: C_COMPILER__dump_alg_info_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/dump_alg_info.c || cmake_object_order_depends_target_dump_alg_info
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/dump_alg_info.dir/dump_alg_info.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19443,7 +19443,7 @@ build tests/dump_alg_info: C_EXECUTABLE_LINKER__dump_alg_info_ tests/CMakeFiles/
 build cmake_object_order_depends_target_vectors_sig: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/vectors_sig.dir/vectors_sig.c.o: C_COMPILER__vectors_sig_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/vectors_sig.c || cmake_object_order_depends_target_vectors_sig
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/vectors_sig.dir/vectors_sig.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
@@ -19480,7 +19480,7 @@ build tests/vectors_sig: C_EXECUTABLE_LINKER__vectors_sig_ tests/CMakeFiles/vect
 build cmake_object_order_depends_target_vectors_kem: phony || cmake_object_order_depends_target_oqs cmake_object_order_depends_target_oqs-internal
 
 build tests/CMakeFiles/vectors_kem.dir/vectors_kem.c.o: C_COMPILER__vectors_kem_unscanned_ /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/tests/vectors_kem.c || cmake_object_order_depends_target_vectors_kem
-  DEFINES = -DOQS_COMPILE_GIT_COMMIT=\"820ab428fc14faf1170a262376cc069e8765f49c\" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
+  DEFINES = -DOQS_COMPILE_GIT_COMMIT="\"c355589a3565a0a134c3016d87e724bf24896108 (+ local modifications)\"" -DOQS_COMPILE_OPTIONS="\"[-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]\""
   DEP_FILE = tests/CMakeFiles/vectors_kem.dir/vectors_kem.c.o.d
   FLAGS = -std=gnu11 -fPIE -fvisibility=hidden -Wa,--noexecstack -O3 -fomit-frame-pointer -fdata-sections -ffunction-sections -Wl,--gc-sections -Wbad-function-cast
   INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src -isystem /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include
