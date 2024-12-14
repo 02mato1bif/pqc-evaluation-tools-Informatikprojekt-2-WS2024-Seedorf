@@ -1,4 +1,4 @@
-prefix=/home/tomi6545/pqc-evaluation-tools/lib/liboqs
+prefix=/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs
 libdir=${prefix}/lib
 includedir=${prefix}/include
 

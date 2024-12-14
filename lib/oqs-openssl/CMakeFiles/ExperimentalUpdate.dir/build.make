@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source
+CMAKE_SOURCE_DIR = /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl
+CMAKE_BINARY_DIR = /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl
 
 # Utility rule file for ExperimentalUpdate.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalUpdate.dir/clean:
 .PHONY : CMakeFiles/ExperimentalUpdate.dir/clean
 
 CMakeFiles/ExperimentalUpdate.dir/depend:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source /home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ExperimentalUpdate.dir/depend
 

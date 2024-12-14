@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source
+CMAKE_SOURCE_DIR = /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl
+CMAKE_BINARY_DIR = /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/CPackSourceConfig.cmake
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(CMAKE_COMMAND) -E cmake_progress_start /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/CMakeFiles /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/test//CMakeFiles/progress.marks
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/CMakeFiles 0
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(CMAKE_COMMAND) -E cmake_progress_start /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/CMakeFiles /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/test//CMakeFiles/progress.marks
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/oqs_test_signatures.dir/rule:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_signatures.dir/rule
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_signatures.dir/rule
 .PHONY : test/CMakeFiles/oqs_test_signatures.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ oqs_test_signatures: test/CMakeFiles/oqs_test_signatures.dir/rule
 
 # fast build rule for target.
 oqs_test_signatures/fast:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/build
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/build
 .PHONY : oqs_test_signatures/fast
 
 # Convenience name for target.
 test/CMakeFiles/oqs_test_kems.dir/rule:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_kems.dir/rule
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_kems.dir/rule
 .PHONY : test/CMakeFiles/oqs_test_kems.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ oqs_test_kems: test/CMakeFiles/oqs_test_kems.dir/rule
 
 # fast build rule for target.
 oqs_test_kems/fast:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/build
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/build
 .PHONY : oqs_test_kems/fast
 
 # Convenience name for target.
 test/CMakeFiles/oqs_test_groups.dir/rule:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_groups.dir/rule
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_groups.dir/rule
 .PHONY : test/CMakeFiles/oqs_test_groups.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ oqs_test_groups: test/CMakeFiles/oqs_test_groups.dir/rule
 
 # fast build rule for target.
 oqs_test_groups/fast:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/build
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/build
 .PHONY : oqs_test_groups/fast
 
 # Convenience name for target.
 test/CMakeFiles/oqs_test_tlssig.dir/rule:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_tlssig.dir/rule
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_tlssig.dir/rule
 .PHONY : test/CMakeFiles/oqs_test_tlssig.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ oqs_test_tlssig: test/CMakeFiles/oqs_test_tlssig.dir/rule
 
 # fast build rule for target.
 oqs_test_tlssig/fast:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/build
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/build
 .PHONY : oqs_test_tlssig/fast
 
 # Convenience name for target.
 test/CMakeFiles/oqs_test_endecode.dir/rule:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_endecode.dir/rule
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_endecode.dir/rule
 .PHONY : test/CMakeFiles/oqs_test_endecode.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ oqs_test_endecode: test/CMakeFiles/oqs_test_endecode.dir/rule
 
 # fast build rule for target.
 oqs_test_endecode/fast:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/build
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/build
 .PHONY : oqs_test_endecode/fast
 
 # Convenience name for target.
 test/CMakeFiles/oqs_test_evp_pkey_params.dir/rule:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_evp_pkey_params.dir/rule
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/oqs_test_evp_pkey_params.dir/rule
 .PHONY : test/CMakeFiles/oqs_test_evp_pkey_params.dir/rule
 
 # Convenience name for target.
@@ -272,7 +272,7 @@ oqs_test_evp_pkey_params: test/CMakeFiles/oqs_test_evp_pkey_params.dir/rule
 
 # fast build rule for target.
 oqs_test_evp_pkey_params/fast:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/build
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/build
 .PHONY : oqs_test_evp_pkey_params/fast
 
 oqs_test_endecode.o: oqs_test_endecode.c.o
@@ -280,7 +280,7 @@ oqs_test_endecode.o: oqs_test_endecode.c.o
 
 # target to build an object file
 oqs_test_endecode.c.o:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/oqs_test_endecode.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/oqs_test_endecode.c.o
 .PHONY : oqs_test_endecode.c.o
 
 oqs_test_endecode.i: oqs_test_endecode.c.i
@@ -288,7 +288,7 @@ oqs_test_endecode.i: oqs_test_endecode.c.i
 
 # target to preprocess a source file
 oqs_test_endecode.c.i:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/oqs_test_endecode.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/oqs_test_endecode.c.i
 .PHONY : oqs_test_endecode.c.i
 
 oqs_test_endecode.s: oqs_test_endecode.c.s
@@ -296,7 +296,7 @@ oqs_test_endecode.s: oqs_test_endecode.c.s
 
 # target to generate assembly for a file
 oqs_test_endecode.c.s:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/oqs_test_endecode.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/oqs_test_endecode.c.s
 .PHONY : oqs_test_endecode.c.s
 
 oqs_test_evp_pkey_params.o: oqs_test_evp_pkey_params.c.o
@@ -304,7 +304,7 @@ oqs_test_evp_pkey_params.o: oqs_test_evp_pkey_params.c.o
 
 # target to build an object file
 oqs_test_evp_pkey_params.c.o:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/oqs_test_evp_pkey_params.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/oqs_test_evp_pkey_params.c.o
 .PHONY : oqs_test_evp_pkey_params.c.o
 
 oqs_test_evp_pkey_params.i: oqs_test_evp_pkey_params.c.i
@@ -312,7 +312,7 @@ oqs_test_evp_pkey_params.i: oqs_test_evp_pkey_params.c.i
 
 # target to preprocess a source file
 oqs_test_evp_pkey_params.c.i:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/oqs_test_evp_pkey_params.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/oqs_test_evp_pkey_params.c.i
 .PHONY : oqs_test_evp_pkey_params.c.i
 
 oqs_test_evp_pkey_params.s: oqs_test_evp_pkey_params.c.s
@@ -320,7 +320,7 @@ oqs_test_evp_pkey_params.s: oqs_test_evp_pkey_params.c.s
 
 # target to generate assembly for a file
 oqs_test_evp_pkey_params.c.s:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/oqs_test_evp_pkey_params.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/oqs_test_evp_pkey_params.c.s
 .PHONY : oqs_test_evp_pkey_params.c.s
 
 oqs_test_groups.o: oqs_test_groups.c.o
@@ -328,7 +328,7 @@ oqs_test_groups.o: oqs_test_groups.c.o
 
 # target to build an object file
 oqs_test_groups.c.o:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/oqs_test_groups.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/oqs_test_groups.c.o
 .PHONY : oqs_test_groups.c.o
 
 oqs_test_groups.i: oqs_test_groups.c.i
@@ -336,7 +336,7 @@ oqs_test_groups.i: oqs_test_groups.c.i
 
 # target to preprocess a source file
 oqs_test_groups.c.i:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/oqs_test_groups.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/oqs_test_groups.c.i
 .PHONY : oqs_test_groups.c.i
 
 oqs_test_groups.s: oqs_test_groups.c.s
@@ -344,7 +344,7 @@ oqs_test_groups.s: oqs_test_groups.c.s
 
 # target to generate assembly for a file
 oqs_test_groups.c.s:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/oqs_test_groups.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/oqs_test_groups.c.s
 .PHONY : oqs_test_groups.c.s
 
 oqs_test_kems.o: oqs_test_kems.c.o
@@ -352,7 +352,7 @@ oqs_test_kems.o: oqs_test_kems.c.o
 
 # target to build an object file
 oqs_test_kems.c.o:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.o
 .PHONY : oqs_test_kems.c.o
 
 oqs_test_kems.i: oqs_test_kems.c.i
@@ -360,7 +360,7 @@ oqs_test_kems.i: oqs_test_kems.c.i
 
 # target to preprocess a source file
 oqs_test_kems.c.i:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.i
 .PHONY : oqs_test_kems.c.i
 
 oqs_test_kems.s: oqs_test_kems.c.s
@@ -368,7 +368,7 @@ oqs_test_kems.s: oqs_test_kems.c.s
 
 # target to generate assembly for a file
 oqs_test_kems.c.s:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.s
 .PHONY : oqs_test_kems.c.s
 
 oqs_test_signatures.o: oqs_test_signatures.c.o
@@ -376,7 +376,7 @@ oqs_test_signatures.o: oqs_test_signatures.c.o
 
 # target to build an object file
 oqs_test_signatures.c.o:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/oqs_test_signatures.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/oqs_test_signatures.c.o
 .PHONY : oqs_test_signatures.c.o
 
 oqs_test_signatures.i: oqs_test_signatures.c.i
@@ -384,7 +384,7 @@ oqs_test_signatures.i: oqs_test_signatures.c.i
 
 # target to preprocess a source file
 oqs_test_signatures.c.i:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/oqs_test_signatures.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/oqs_test_signatures.c.i
 .PHONY : oqs_test_signatures.c.i
 
 oqs_test_signatures.s: oqs_test_signatures.c.s
@@ -392,7 +392,7 @@ oqs_test_signatures.s: oqs_test_signatures.c.s
 
 # target to generate assembly for a file
 oqs_test_signatures.c.s:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/oqs_test_signatures.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/oqs_test_signatures.c.s
 .PHONY : oqs_test_signatures.c.s
 
 oqs_test_tlssig.o: oqs_test_tlssig.c.o
@@ -400,7 +400,7 @@ oqs_test_tlssig.o: oqs_test_tlssig.c.o
 
 # target to build an object file
 oqs_test_tlssig.c.o:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/oqs_test_tlssig.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/oqs_test_tlssig.c.o
 .PHONY : oqs_test_tlssig.c.o
 
 oqs_test_tlssig.i: oqs_test_tlssig.c.i
@@ -408,7 +408,7 @@ oqs_test_tlssig.i: oqs_test_tlssig.c.i
 
 # target to preprocess a source file
 oqs_test_tlssig.c.i:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/oqs_test_tlssig.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/oqs_test_tlssig.c.i
 .PHONY : oqs_test_tlssig.c.i
 
 oqs_test_tlssig.s: oqs_test_tlssig.c.s
@@ -416,7 +416,7 @@ oqs_test_tlssig.s: oqs_test_tlssig.c.s
 
 # target to generate assembly for a file
 oqs_test_tlssig.c.s:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/oqs_test_tlssig.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/oqs_test_tlssig.c.s
 .PHONY : oqs_test_tlssig.c.s
 
 test_common.o: test_common.c.o
@@ -424,12 +424,12 @@ test_common.o: test_common.c.o
 
 # target to build an object file
 test_common.c.o:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/test_common.c.o
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/test_common.c.o
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/test_common.c.o
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/test_common.c.o
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/test_common.c.o
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/test_common.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/test_common.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/test_common.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/test_common.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/test_common.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/test_common.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/test_common.c.o
 .PHONY : test_common.c.o
 
 test_common.i: test_common.c.i
@@ -437,12 +437,12 @@ test_common.i: test_common.c.i
 
 # target to preprocess a source file
 test_common.c.i:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/test_common.c.i
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/test_common.c.i
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/test_common.c.i
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/test_common.c.i
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/test_common.c.i
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/test_common.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/test_common.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/test_common.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/test_common.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/test_common.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/test_common.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/test_common.c.i
 .PHONY : test_common.c.i
 
 test_common.s: test_common.c.s
@@ -450,12 +450,12 @@ test_common.s: test_common.c.s
 
 # target to generate assembly for a file
 test_common.c.s:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/test_common.c.s
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/test_common.c.s
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/test_common.c.s
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/test_common.c.s
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/test_common.c.s
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/test_common.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_signatures.dir/build.make test/CMakeFiles/oqs_test_signatures.dir/test_common.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_kems.dir/build.make test/CMakeFiles/oqs_test_kems.dir/test_common.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/test_common.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/test_common.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_endecode.dir/build.make test/CMakeFiles/oqs_test_endecode.dir/test_common.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_evp_pkey_params.dir/build.make test/CMakeFiles/oqs_test_evp_pkey_params.dir/test_common.c.s
 .PHONY : test_common.c.s
 
 tlstest_helpers.o: tlstest_helpers.c.o
@@ -463,8 +463,8 @@ tlstest_helpers.o: tlstest_helpers.c.o
 
 # target to build an object file
 tlstest_helpers.c.o:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/tlstest_helpers.c.o
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/tlstest_helpers.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/tlstest_helpers.c.o
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/tlstest_helpers.c.o
 .PHONY : tlstest_helpers.c.o
 
 tlstest_helpers.i: tlstest_helpers.c.i
@@ -472,8 +472,8 @@ tlstest_helpers.i: tlstest_helpers.c.i
 
 # target to preprocess a source file
 tlstest_helpers.c.i:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/tlstest_helpers.c.i
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/tlstest_helpers.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/tlstest_helpers.c.i
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/tlstest_helpers.c.i
 .PHONY : tlstest_helpers.c.i
 
 tlstest_helpers.s: tlstest_helpers.c.s
@@ -481,8 +481,8 @@ tlstest_helpers.s: tlstest_helpers.c.s
 
 # target to generate assembly for a file
 tlstest_helpers.c.s:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/tlstest_helpers.c.s
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/tlstest_helpers.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_groups.dir/build.make test/CMakeFiles/oqs_test_groups.dir/tlstest_helpers.c.s
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/oqs_test_tlssig.dir/build.make test/CMakeFiles/oqs_test_tlssig.dir/tlstest_helpers.c.s
 .PHONY : tlstest_helpers.c.s
 
 # Help Target
@@ -541,6 +541,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

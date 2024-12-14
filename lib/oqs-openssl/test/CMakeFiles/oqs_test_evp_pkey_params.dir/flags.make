@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DNDEBUG
 
-C_INCLUDES = -I/home/tomi6545/pqc-evaluation-tools/lib/openssl_3.2/include -I/home/tomi6545/pqc-evaluation-tools/lib/liboqs/include -I/home/tomi6545/pqc-evaluation-tools/lib/liboqs/include/oqs -I/home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source/test/../oqsprov
+C_INCLUDES = -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/include -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/include/oqs -I/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source/test/../oqsprov
 
 C_FLAGS = -std=gnu11 -Wunused-function
 

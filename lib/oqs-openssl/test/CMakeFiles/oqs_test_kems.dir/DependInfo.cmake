@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source/test/oqs_test_kems.c" "test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.o" "gcc" "test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.o.d"
-  "/home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source/test/test_common.c" "test/CMakeFiles/oqs_test_kems.dir/test_common.c.o" "gcc" "test/CMakeFiles/oqs_test_kems.dir/test_common.c.o.d"
+  "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source/test/oqs_test_kems.c" "test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.o" "gcc" "test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.o.d"
+  "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source/test/test_common.c" "test/CMakeFiles/oqs_test_kems.dir/test_common.c.o" "gcc" "test/CMakeFiles/oqs_test_kems.dir/test_common.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

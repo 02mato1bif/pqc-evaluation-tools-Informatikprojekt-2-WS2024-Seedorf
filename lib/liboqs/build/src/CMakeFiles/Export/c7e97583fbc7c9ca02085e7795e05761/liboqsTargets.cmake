@@ -60,7 +60,7 @@ add_library(OQS::oqs STATIC IMPORTED)
 
 set_target_properties(OQS::oqs PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include/oqs"
-  INTERFACE_LINK_LIBRARIES "/home/tomi6545/pqc-evaluation-tools/lib/openssl_3.2/lib64/libcrypto.so"
+  INTERFACE_LINK_LIBRARIES "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/lib64/libcrypto.so"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

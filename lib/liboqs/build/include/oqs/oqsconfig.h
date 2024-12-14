@@ -16,7 +16,7 @@
  */
 #define OQS_VERSION_PRE_RELEASE "-dev"
 
-#define OQS_COMPILE_BUILD_TARGET "x86_64-Linux-5.15.167.4-microsoft-standard-WSL2"
+#define OQS_COMPILE_BUILD_TARGET "x86_64-Linux-5.15.133.1-microsoft-standard-WSL2"
 #define OQS_DIST_BUILD 1
 #define OQS_DIST_X86_64_BUILD 1
 /* #undef OQS_DIST_X86_BUILD */

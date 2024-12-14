@@ -50,15 +50,15 @@ unset(_cmake_expected_targets)
 add_library(OQS::oqs STATIC IMPORTED)
 
 set_target_properties(OQS::oqs PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/tomi6545/pqc-evaluation-tools/tmp/liboqs-source/src"
-  INTERFACE_LINK_LIBRARIES "/home/tomi6545/pqc-evaluation-tools/lib/openssl_3.2/lib64/libcrypto.so"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src"
+  INTERFACE_LINK_LIBRARIES "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/openssl_3.2/lib64/libcrypto.so"
 )
 
 # Import target "OQS::oqs" for configuration ""
 set_property(TARGET OQS::oqs APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(OQS::oqs PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "ASM;C"
-  IMPORTED_LOCATION_NOCONFIG "/home/tomi6545/pqc-evaluation-tools/lib/liboqs/build/lib/liboqs.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/lib/liboqs.a"
   )
 
 # This file does not depend on other imported targets which have
