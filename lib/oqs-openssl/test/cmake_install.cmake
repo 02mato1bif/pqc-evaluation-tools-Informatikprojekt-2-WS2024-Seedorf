@@ -1,8 +1,8 @@
-# Install script for directory: /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source/test
+# Install script for directory: /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl")
+  set(CMAKE_INSTALL_PREFIX "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

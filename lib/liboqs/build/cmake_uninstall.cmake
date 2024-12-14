@@ -1,10 +1,10 @@
 # As per https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake
 
-if(NOT EXISTS "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/install_manifest.txt")
+if(NOT EXISTS "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/install_manifest.txt")
 endif()
 
-file(READ "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/install_manifest.txt" files)
+file(READ "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

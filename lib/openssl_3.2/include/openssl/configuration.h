@@ -146,7 +146,7 @@ extern "C" {
 #  undef THIRTY_TWO_BIT
 # endif
 
-# define RC4_INT unsigned int
+# define RC4_INT unsigned char
 
 # if defined(OPENSSL_NO_COMP) || (defined(OPENSSL_NO_BROTLI) && defined(OPENSSL_NO_ZSTD) && defined(OPENSSL_NO_ZLIB))
 #  define OPENSSL_NO_COMP_ALG

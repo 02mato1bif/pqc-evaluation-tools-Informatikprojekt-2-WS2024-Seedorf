@@ -1,8 +1,8 @@
-# Install script for directory: /home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src
+# Install script for directory: /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs")
+  set(CMAKE_INSTALL_PREFIX "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,138 +44,134 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/common/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/bike/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/bike/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/frodokem/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/frodokem/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/ntruprime/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/ntruprime/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/classic_mceliece/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/classic_mceliece/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/hqc/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/hqc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/kyber/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/kyber/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/ml_kem/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/kem/ml_kem/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/dilithium/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/dilithium/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/ml_dsa/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/ml_dsa/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/falcon/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/falcon/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/sphincs/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/sphincs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/mayo/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/mayo/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/cross/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/sig/cross/cmake_install.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs" TYPE FILE FILES
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/liboqsConfig.cmake"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/liboqsConfigVersion.cmake"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/liboqsConfig.cmake"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/liboqsConfigVersion.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/liboqs.pc")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/liboqs.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/lib/liboqs.a")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/lib/liboqs.a")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs/liboqsTargets.cmake")
-    file(DIFFERENT _cmake_export_file_changed FILES
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs/liboqsTargets.cmake"
-         "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/CMakeFiles/Export/c7e97583fbc7c9ca02085e7795e05761/liboqsTargets.cmake")
-    if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs/liboqsTargets-*.cmake")
-      if(_cmake_old_config_files)
-        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs/liboqsTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
-        unset(_cmake_old_config_files_text)
-        file(REMOVE ${_cmake_old_config_files})
+         "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/CMakeFiles/Export/lib/cmake/liboqs/liboqsTargets.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs/liboqsTargets-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs/liboqsTargets.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
       endif()
-      unset(_cmake_old_config_files)
     endif()
-    unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs" TYPE FILE FILES "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/CMakeFiles/Export/c7e97583fbc7c9ca02085e7795e05761/liboqsTargets.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs" TYPE FILE FILES "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/CMakeFiles/Export/c7e97583fbc7c9ca02085e7795e05761/liboqsTargets-noconfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs" TYPE FILE FILES "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/CMakeFiles/Export/lib/cmake/liboqs/liboqsTargets.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/liboqs" TYPE FILE FILES "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/src/CMakeFiles/Export/lib/cmake/liboqs/liboqsTargets-noconfig.cmake")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/oqs" TYPE FILE FILES
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/oqs.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/aes/aes_ops.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/common.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/rand/rand.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/sha2/sha2_ops.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/sha3/sha3_ops.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/sha3/sha3x4_ops.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/kem.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/sig.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig_stfl/sig_stfl.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/bike/kem_bike.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/frodokem/kem_frodokem.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/ntruprime/kem_ntruprime.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/classic_mceliece/kem_classic_mceliece.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/hqc/kem_hqc.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/kyber/kem_kyber.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/ml_kem/kem_ml_kem.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/dilithium/sig_dilithium.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/ml_dsa/sig_ml_dsa.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/falcon/sig_falcon.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/sphincs/sig_sphincs.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/mayo/sig_mayo.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/cross/sig_cross.h"
-    "/home/siper/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include/oqs/oqsconfig.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/oqs.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/aes/aes_ops.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/common.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/rand/rand.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/sha2/sha2_ops.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/sha3/sha3_ops.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/common/sha3/sha3x4_ops.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/kem.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/sig.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig_stfl/sig_stfl.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/bike/kem_bike.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/frodokem/kem_frodokem.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/ntruprime/kem_ntruprime.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/classic_mceliece/kem_classic_mceliece.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/hqc/kem_hqc.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/kyber/kem_kyber.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/kem/ml_kem/kem_ml_kem.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/dilithium/sig_dilithium.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/ml_dsa/sig_ml_dsa.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/falcon/sig_falcon.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/sphincs/sig_sphincs.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/mayo/sig_mayo.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/liboqs-source/src/sig/cross/sig_cross.h"
+    "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/include/oqs/oqsconfig.h"
     )
 endif()
 
