@@ -1,8 +1,8 @@
-# Install script for directory: /home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source
+# Install script for directory: /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl")
+  set(CMAKE_INSTALL_PREFIX "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/oqsprov/cmake_install.cmake")
-  include("/home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/test/cmake_install.cmake")
-  include("/home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/examples/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/oqsprov/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/test/cmake_install.cmake")
+  include("/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/examples/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source
-BuildDirectory: /home/tomi6545/pqc-evaluation-tools/lib/oqs-openssl
+SourceDirectory: /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source
+BuildDirectory: /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/oqs-openssl
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-MM4B6QK
+Site: 4973bd560304
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-cc
@@ -21,13 +21,12 @@ LabelsForSubprojects:
 
 # Submission information
 SubmitURL: http://
-SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/tomi6545/pqc-evaluation-tools/tmp/oqs-openssl-source"
+ConfigureCommand: "/usr/bin/cmake" "/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/tmp/oqs-openssl-source"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

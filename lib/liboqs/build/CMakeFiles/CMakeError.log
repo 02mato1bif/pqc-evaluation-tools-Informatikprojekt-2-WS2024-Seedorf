@@ -1,0 +1,57 @@
+Determining if the explicit_memset exist failed with the following output:
+Change Dir: /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_91f14 && [1/2] Building C object CMakeFiles/cmTC_91f14.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_91f14.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -std=gnu11 -o CMakeFiles/cmTC_91f14.dir/CheckSymbolExists.c.o -c /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'explicit_memset' undeclared (first use in this function)
+    8 |   return ((int*)(&explicit_memset))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef explicit_memset
+  return ((int*)(&explicit_memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memset_s exist failed with the following output:
+Change Dir: /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_00e8e && [1/2] Building C object CMakeFiles/cmTC_00e8e.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_00e8e.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -std=gnu11 -o CMakeFiles/cmTC_00e8e.dir/CheckSymbolExists.c.o -c /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'memset_s' undeclared (first use in this function); did you mean 'memset'?
+    8 |   return ((int*)(&memset_s))[argc];
+      |                   ^~~~~~~~
+      |                   memset
+/pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /pqc-evaluation-tools-Informatikprojekt-2-WS2024-Seedorf/lib/liboqs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset_s
+  return ((int*)(&memset_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
